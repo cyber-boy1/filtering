@@ -2,16 +2,19 @@ from colorama import Fore, Back
 import os
 from time import sleep
 
+os.system("pip install colorama")
 os.system("clear")
 sleep(1.5)
 print(Fore.RED, "welcome!")
 sleep(2.0)
 
-cb= (Fore.CYAN,"               _  ___ _   _| |__   ___ _ __| |",
-" / __| | | | '_ \ / _ \ '__| '_ \ / _ \| | | |",
-"| (__| |_| | |_) |  __/ |  | |_) | (_) | |_| |",
-" \___|\__, |_.__/ \___|_|  |_.__/ \___/ \__, |",
-"      |___/                             |___/")
+cb= (Fore.CYAN,""
+"            _                 _
+"  ___ _   _| |__   ___ _ __  | |__   ___  _   _ ",
+" / __| | | | '_ \ / _ \ '__| | '_ \ / _ \| | | |",
+"| (__| |_| | |_) |  __/ |    | |_) | (_) | |_| |",
+" \___|\__, |_.__/ \___|_|    |_.__/ \___/ \__, |",
+"      |___/                               |___/")
 for cb in cb:
  print (cb)
  sleep(0.1)
